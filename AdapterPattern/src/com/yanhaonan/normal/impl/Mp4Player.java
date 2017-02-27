@@ -1,6 +1,6 @@
-package com.yanhaonan.impl;
+package com.yanhaonan.normal.impl;
 
-import com.yanhaonan.iface.AdvancedMediaPlayer;
+import com.yanhaonan.normal.iface.AdvancedMediaPlayer;
 
 /**
  * Created by Vegeta on 2/19/17.

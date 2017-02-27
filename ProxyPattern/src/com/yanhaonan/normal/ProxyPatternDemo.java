@@ -1,7 +1,7 @@
-package com.yanhaonan;
+package com.yanhaonan.normal;
 
-import com.yanhaonan.iface.Image;
-import com.yanhaonan.impl.ProxyImage;
+import com.yanhaonan.normal.iface.Image;
+import com.yanhaonan.normal.impl.ProxyImage;
 
 /**
  * Created by Vegeta on 2/21/17.

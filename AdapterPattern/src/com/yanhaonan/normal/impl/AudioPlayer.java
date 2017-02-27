@@ -1,7 +1,7 @@
-package com.yanhaonan.impl;
+package com.yanhaonan.normal.impl;
 
 
-import com.yanhaonan.iface.MediaPlayer;
+import com.yanhaonan.normal.iface.MediaPlayer;
 import org.springframework.stereotype.Component;
 
 /**

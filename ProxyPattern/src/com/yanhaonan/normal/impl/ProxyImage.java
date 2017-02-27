@@ -1,6 +1,6 @@
-package com.yanhaonan.impl;
+package com.yanhaonan.normal.impl;
 
-import com.yanhaonan.iface.Image;
+import com.yanhaonan.normal.iface.Image;
 
 /**
  * Created by Vegeta on 2/20/17.

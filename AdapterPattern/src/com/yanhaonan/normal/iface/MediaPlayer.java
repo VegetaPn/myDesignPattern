@@ -1,4 +1,4 @@
-package com.yanhaonan.iface;
+package com.yanhaonan.normal.iface;
 
 /**
  * Created by Vegeta on 2/19/17.

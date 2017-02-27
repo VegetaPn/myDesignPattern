@@ -1,6 +1,6 @@
 package test.com.yanhaonan.impl; 
 
-import com.yanhaonan.iface.MediaPlayer;
+import com.yanhaonan.normal.iface.MediaPlayer;
 import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After;
