@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcdaeac5-94ec-4103-b711-94cb555b91e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateMethodPattern/TemplateMethodPattern.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Trip.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerTwo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Request.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyDesignPattern.iws" />
@@ -29,64 +31,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Trip.java">
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PackageB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PackageA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageA.java">
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreateHandlerOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreateHandlerThree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreateHandlerTwo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,12 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/normal/iface/Shape.java" />
-        <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/normal/impl/Rectangle.java" />
-        <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/normal/impl/Square.java" />
-        <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/normal/impl/Circle.java" />
-        <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/normal/impl/ShapeFactory.java" />
-        <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/factory/method/iface/Factory.java" />
         <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/factory/method/impl/ConcreteFactory.java" />
         <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/factory/method/iface/Product.java" />
         <option value="$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/factory/method/impl/ConcreteProduct.java" />
@@ -166,6 +173,12 @@
         <option value="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageA.java" />
         <option value="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageB.java" />
         <option value="$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Main.java" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Request.java" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Handler.java" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerTwo.java" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Main.java" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerThree.java" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerOne.java" />
       </list>
     </option>
   </component>
@@ -213,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TemplateMethodPattern" />
+              <option name="myItemId" value="ChainOfResponsibilityPattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TemplateMethodPattern" />
+              <option name="myItemId" value="ChainOfResponsibilityPattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -264,50 +276,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyDesignPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonPattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="singleton" />
+              <option name="myItemId" value="chainofresponsibility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,36 +303,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.yanhaonan.chainofresponsibility" />
       <recent name="me.yanhaonan.abstractfactory.factory" />
       <recent name="me.yanhaonan.abstractfactory.product" />
       <recent name="me.yanhaonan.abstractfactory" />
       <recent name="com.yanhaonan.bean" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.yanhaonan.chainofresponsibility" />
       <recent name="me.yanhaonan.template" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yanhaonan.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yanhaonan.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BuilderPattern" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -433,6 +392,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="TemplateMethodPattern" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="me.yanhaonan.chainofresponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="me.yanhaonan.chainofresponsibility.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ChainOfResponsibilityPattern" />
       <envs />
       <method />
     </configuration>
@@ -858,19 +837,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -898,7 +877,8 @@
       <workItem from="1488724719904" duration="3028000" />
       <workItem from="1500123689805" duration="1697000" />
       <workItem from="1500206454824" duration="914000" />
-      <workItem from="1500694482176" duration="519000" />
+      <workItem from="1500694482176" duration="925000" />
+      <workItem from="1500734701197" duration="1721000" />
     </task>
     <servers />
   </component>
@@ -914,11 +894,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20417000" />
+    <option name="totallyTimeSpent" value="22544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1239" height="777" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -927,7 +907,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.50292397" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42043796" sideWeight="0.49707603" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42043796" sideWeight="0.49707603" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -938,7 +918,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -968,48 +948,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProxyPattern/src/com/yanhaonan/normal/ProxyPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPattern/src/com/yanhaonan/normal/impl/ProxyImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPattern/src/com/yanhaonan/normal/impl/RealImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPattern/src/com/yanhaonan/normal/iface/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/factory/method/iface/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FactoryPattern/src/com/yanhaonan/factory/method/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1276,10 +1214,10 @@
         <state relative-caret-position="180">
           <caret line="12" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="false" />
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#722#723#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1292,41 +1230,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageA.java">
+    <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,10 +1246,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/Main.java">
+    <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#160#161#0" expanded="false" />
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#397#398#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#641#642#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateMethodPattern/src/me/yanhaonan/template/PackageA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#160#161#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#471#472#0" expanded="false" />
+            <element signature="e#513#514#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/src/me/yanhaonan/chainofresponsibility/ConcreateHandlerOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
